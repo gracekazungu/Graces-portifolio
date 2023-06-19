@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-color:#343a40;
+    --second-bg-color:#495057;
+    --text-color:#f8f9fa;
+    --main-color:#087f5b;
+    
+ }
+body{
+    background-color: var(--bg-color); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.container{width: 80%;
+margin: 50px auto;
+}
+.contact-box{
+    background-color:var(--text-color) ;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+}
+h1{
+    margin-bottom: 10px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    margin-bottom: 1px solid var(--bg-color);
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: solid  var(--bg-color);
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #087f5b;   
+}
+button{
+    background-color: var(--main-color);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3 );
+}
+tr td:first-child{
+padding-right: 20px;
+}
+tr td:first-child{
+    padding-top: 20px;
+    }
+    span{
+        color: var(--main-color);
+    }
